@@ -4,6 +4,7 @@
 resolver = "2"
 members = [
     "crates/kestrel-words",
+    "crates/kestrel-market",
 ]
 
 [workspace.package]
