@@ -1,0 +1,19 @@
+[package]
+name = "kestrel-policy"
+description = "Letter valuation, bid construction and word-play policy."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT"
+authors = ["NikkeTryHard"]
+repository = "https://github.com/NikkeTryHard/kestrel"
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+kestrel-market = { path = "../kestrel-market" }
+kestrel-words = { path = "../kestrel-words" }
+rand = { version = "0.8", features = ["small_rng"] }
+serde = { version = "1.0", features = ["derive"] }
