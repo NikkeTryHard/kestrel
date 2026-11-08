@@ -1,0 +1,19 @@
+[package]
+name = "kestrel-words"
+description = "Alphabet, trays, lexicon index and exhaustive word-partition search."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT"
+authors = ["NikkeTryHard"]
+repository = "https://github.com/NikkeTryHard/kestrel"
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+rustc-hash = "2.1"
+
+[dev-dependencies]
+rand = { version = "0.8", features = ["small_rng"] }

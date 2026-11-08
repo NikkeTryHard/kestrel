@@ -1,0 +1,28 @@
+# Workspace root for the Kestrel auction-game bot.
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/kestrel-words",
+]
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.86"
+version = "0.1.0"
+license = "MIT"
+authors = ["NikkeTryHard"]
+repository = "https://github.com/NikkeTryHard/kestrel"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+opt-level = 3
+debug = 0
+strip = "debuginfo"
+
+[profile.test]
+opt-level = 2

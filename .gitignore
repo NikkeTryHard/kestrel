@@ -1,0 +1,22 @@
+# local build output
+runs/
+**/*.rs.bk
+
+# scratch dirs I keep next to the crates
+target/
+crates/*/target/
+scratch/
+notes/
+
+# credentials never belong in here
+*.token
+bot.token
+.env
+.env.*
+
+# editor / OS noise
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
