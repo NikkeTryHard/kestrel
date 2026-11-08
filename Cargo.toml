@@ -6,6 +6,7 @@ members = [
     "crates/kestrel-words",
     "crates/kestrel-market",
     "crates/kestrel-policy",
+    "crates/kestrel-net",
 ]
 
 [workspace.package]

@@ -1,0 +1,17 @@
+[package]
+name = "kestrel-net"
+description = "Generated SpacetimeDB client plus blocking transport helpers."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT"
+authors = ["NikkeTryHard"]
+repository = "https://github.com/NikkeTryHard/kestrel"
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+anyhow = "1.0"
+spacetimedb-sdk = "=2.13.0"
